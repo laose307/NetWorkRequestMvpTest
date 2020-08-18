@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NetWorkRequestMvp.iml" filepath="$PROJECT_DIR$/NetWorkRequestMvp.iml" group="NetWorkRequestMvpTest/NetWorkRequestMvp" />
+      <module fileurl="file://$PROJECT_DIR$/../NetWorkRequestMvpTest.iml" filepath="$PROJECT_DIR$/../NetWorkRequestMvpTest.iml" group="NetWorkRequestMvpTest" />
+      <module fileurl="file://$PROJECT_DIR$/../NetworkRequestMvp.iml" filepath="$PROJECT_DIR$/../NetworkRequestMvp.iml" group="NetworkRequestMvp" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" group="NetWorkRequestMvpTest/app" />
+    </modules>
+  </component>
+</project>
