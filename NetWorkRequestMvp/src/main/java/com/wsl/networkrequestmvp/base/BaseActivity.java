@@ -10,6 +10,7 @@ import android.view.WindowManager;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.wsl.logs.BaseLogsActivity;
 import com.wsl.networkrequestmvp.base.mvp.BaseModel;
 import com.wsl.networkrequestmvp.base.mvp.BasePresenter;
 import com.wsl.networkrequestmvp.base.mvp.BaseView;
@@ -25,7 +26,7 @@ import static com.wsl.networkrequestmvp.base.mvp.BaseObserver.NETWORK_ERROR;
 /**
  * File descripition: activity基类
  */
-public abstract class BaseActivity<P extends BasePresenter> extends AppCompatActivity implements BaseView {
+public abstract class BaseActivity<P extends BasePresenter> extends BaseLogsActivity implements BaseView {
     protected final String TAG = this.getClass().getSimpleName();
     public Context mContext;
     protected P mPresenter;
