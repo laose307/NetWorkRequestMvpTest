@@ -137,7 +137,7 @@ public abstract class BaseActivity<P extends BasePresenter> extends BaseLogsActi
     }
     @Override
     protected void onDestroy() {
-        super.onDestroy();
+
         if(unbinder!=null){
             unbinder.unbind();
         }
@@ -145,5 +145,6 @@ public abstract class BaseActivity<P extends BasePresenter> extends BaseLogsActi
         if (mPresenter != null) {
             mPresenter.detachView();
         }
+        super.onDestroy();
     }
 }
